@@ -1,5 +1,5 @@
 { "shell-version": ["3.0.2"],
-"uuid": "ssh-sessions@fougner.me",
+"uuid": "ssh-shortcut@fougner",
 "name": "SSH Sessions",
-"url" : "http://github.com/fougner",
-"description": "Handles sessions of ssh" }
+"url" : "http://github.com/fougner/SSH-shortcut",
+"description": "shortcuts for your SSH hosts" }

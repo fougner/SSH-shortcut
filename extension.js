@@ -14,7 +14,7 @@ const _ = Gettext.gettext;
 const TERMINAL_SCHEMA = 'org.gnome.desktop.default-applications.terminal';
 const EXEC_KEY = 'exec';
 const EXEC_ARG_KEY = 'exec-arg';
-const SSH_HOSTFILE = '.mysshconnecter';
+const SSH_HOSTFILE = '.sshshortcut';
 
 function PlacesButton() {
     this._init();
@@ -37,8 +37,6 @@ PlacesButton.prototype = {
 		if(bookmarks[i].length > 0)
         	this._createShortcut(bookmarks[i]);
 	}
-
-        //this.menu.addMenuItem(new PopupMenu.PopupSeparatorMenuItem());
 
         Main.panel._centerBox.add(this.actor, { y_fill: true });
         Main.panel._menus.addMenu(this.menu);
