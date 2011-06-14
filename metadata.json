@@ -1,1 +1,5 @@
-{"shell-version": ["3.0.2"], "uuid": "ssh-sessions@fougner.me", "name": "SSH Sessions", "description": "Handles sessions of ssh"}
+{ "shell-version": ["3.0.2"],
+"uuid": "ssh-sessions@fougner.me",
+"name": "SSH Sessions",
+"url" : "http://github.com/fougner",
+"description": "Handles sessions of ssh" }
